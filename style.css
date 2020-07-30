@@ -1,0 +1,111 @@
+@import url('https://www.fontspace.com/lemon-milk-font-f44669');
+
+  
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.ScoreBoard {
+    display: flex;
+    justify-content: center;
+    font-family: "Score Board", sans-serif;
+    text-align: center;
+    background: #2c2c2c;
+    color: #fd8049;
+    text-shadow: 0 0 3px #fd8049;
+    padding: 1rem 0;
+}
+
+.ScoreBoard h3 {
+  margin: 0;
+}
+
+.ScoreBoard .teamStats {
+  flex: 1;
+}
+
+.Game {
+  text-align: center;
+}
+
+.Team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 30rem;
+}
+
+.Team {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Team {
+  max-width: 200px;
+}
+
+.Stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.versus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.versus h1 {
+  font-family: againtsregular, oswald, sans-serif;
+  font-size: 500%;
+  color: #fc0;
+  text-shadow: 2px 2px 0 black;
+}
+
+button {
+  display: block;
+  margin-top: 1.2em;
+  width: 100%;
+  padding:1rem;
+  background-color: #fc0;
+  border: 0;
+  font-family: serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  box-shadow: 2px 2px 0 black;
+}
+h2 {
+    font-family: againtsregular, oswald, sans-serif;
+  font-size: 200%;
+  color: rgb(23, 134, 13);
+  text-shadow: 2px 2px 0 black;
+}
+.Percentage{
+    color: #2e21f0;
+    font-size:25px; 
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+.welcome{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: rgb(4, 211, 56);
+    border: black dotted 2px;
+    text-shadow: 2px 2px black;
+   
+    
+}

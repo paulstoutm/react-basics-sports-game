@@ -12,22 +12,26 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-.ScoreBoard {
+.ScoreBoard{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: "Score Board", sans-serif;
-    text-align: center;
+    text-align: justify center;
     background: #2c2c2c;
     color: #fd8049;
-    text-shadow: 0 0 3px #fd8049;
-    padding: 1rem 0;
+    text-shadow: 0 0 2px #28db31;
+    padding: 1em;
+    
+    
 }
 
-.ScoreBoard h3 {
-  margin: 0;
+h3 {
+  margin: 1;
+  padding: 3;
+ 
 }
 
-.ScoreBoard .teamStats {
+.ScoreBoard {
   flex: 1;
 }
 
